@@ -1,0 +1,196 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'popons', sans-serif;
+}
+
+/* ###########utility classes############ */
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin:auto;
+}
+
+/* #########navbar-styling######### */
+/* for desktop mode */
+
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines{
+    display: none;
+    /* display: none; */
+}
+
+.navbar{
+    /* box-shadow: 0px 5px 10px 0px #d0cece; */
+    position:fixed;
+    width: 100%;
+    background:#fff;
+    /* color: #000; */
+    opacity:0.95 ;
+    z-index: 999;
+    border: 1.5px solid rgb(146, 145, 145);
+}
+.navbar-container{
+    display: flex;
+    justify-content:space-evenly;
+    height: 64px;
+    align-items: center;
+
+}
+.menu-items{
+    order: 2;
+    display: flex;
+
+}
+.menu-items li{
+    list-style: none;
+    margin-left: 4rem;
+    font-size: 1.8rem;
+    font-weight:2 ;
+
+}
+
+.navbar a{
+    color:#032039;
+text-decoration: none;
+font-weight: 500;
+transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover{
+    color: #0068b1;
+}
+/* #########showcase-styling######## */
+.showcase-area{
+height: 100vh;
+    background:url("./image/btirt-building3.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* #######styling-showcase container######### */
+
+.showcase-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 2.6rem;
+    box-sizing: border-box;
+
+
+}
+.showcase-container h1{
+    font-size: 4rem;
+    color: rgb(238, 29, 29);
+    background-color: #ece070;
+    padding: 10px 10px 5px 10px;
+    width: 30%;
+    text-align: center;
+    font-weight: 700;
+
+}
+.showcase-container p{
+    font-size: 2rem;
+    color: white;
+    background-color:  #f54f39;
+    padding: 5px 10px 10px 10px;
+    /* width: 50%; */
+    
+
+}
+/* #########about-styling######### */
+
+#about{
+    padding-top: 80px ;
+    font-size: 1.8rem;
+
+
+}
+/* ##########topics-styling########### */
+#topics{
+    padding-top: 80px;
+    font-size: 1.8rem;
+    
+
+}
+/* ##########important-dates-styling########### */
+
+#Important-dates{
+    padding-top: 80px;
+    font-size: 1.8rem;
+}
+
+/* ##########committees-styling########### */
+#committees{
+    padding-top: 80px;
+    font-size: 1.8rem;
+
+}
+
+/* ##########keynotes-styling########### */
+#keynotes{
+    padding-top: 80px;
+    font-size: 1.8rem;
+    
+}
+/* ##########guidelines-styling########### */
+
+#guidelines{
+    padding-top: 80px;
+    font-size: 1.5rem;
+}
+
+/* ##########contact-styling########### */
+#contact{
+    padding-top: 80px;
+    font-size: 1.8rem;
+    
+}
+
+/* #########registration-styling########### */
+#registration{
+    padding-top: 80px;
+    font-size: 1.8rem;
+}
+#Alok{
+    padding:80px 300px ;
+}
+.bio-content{
+    border: 2px solid black;
+    padding-right: 9px;
+}
+.img1{
+    text-align: center;
+    width: 150px;
+    height: auto;
+}
+
+img{
+    max-width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.aim{
+    padding: 10px;
+    
+}
+
+
+
+
+
+
