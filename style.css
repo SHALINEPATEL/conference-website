@@ -35,7 +35,7 @@ body{
     /* box-shadow: 0px 5px 10px 0px #d0cece; */
     position:fixed;
     width: 100%;
-    background:#fff;
+    background:#f54f39;
     /* color: #000; */
     opacity:0.95 ;
     z-index: 999;
@@ -62,7 +62,7 @@ body{
 }
 
 .navbar a{
-    color:#032039;
+    color:white;
 text-decoration: none;
 font-weight: 500;
 transition: color 0.3s ease-in-out;
@@ -104,7 +104,7 @@ height: 100vh;
 
 }
 .showcase-container p{
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: white;
     background-color:  #f54f39;
     padding: 5px 10px 10px 10px;
@@ -116,14 +116,14 @@ height: 100vh;
 
 #about{
     padding-top: 80px ;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
 
 
 }
 /* ##########topics-styling########### */
 #topics{
     padding-top: 80px;
-    font-size: 1.8rem;
+    font-size: 2rem;
     
 
 }
@@ -131,40 +131,40 @@ height: 100vh;
 
 #Important-dates{
     padding-top: 80px;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 /* ##########committees-styling########### */
 #committees{
     padding-top: 80px;
-    font-size: 1.8rem;
+    font-size: 2rem;
 
 }
 
 /* ##########keynotes-styling########### */
 #keynotes{
     padding-top: 80px;
-    font-size: 1.8rem;
+    font-size: 2rem;
     
 }
 /* ##########guidelines-styling########### */
 
 #guidelines{
     padding-top: 80px;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 /* ##########contact-styling########### */
 #contact{
     padding-top: 80px;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     
 }
 
 /* #########registration-styling########### */
 #registration{
     padding-top: 80px;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 #Alok{
     padding:80px 300px ;
