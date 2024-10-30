@@ -39,7 +39,7 @@ body{
     /* color: #000; */
     opacity:0.95 ;
     z-index: 999;
-    border: 1.5px solid rgb(146, 145, 145);
+    border: 1.5px solid rgb(254, 250, 250)
 }
 .navbar-container{
     display: flex;
@@ -131,17 +131,20 @@ height: 100vh;
 #topics{
     padding-top: 80px;
     font-size: 2rem;
-    
+    flex-direction: column;
 
+    
 }
 #topics{
-height: 100vh;
 background:url("image/Back ground 2.jpg");
 background-size:cover;
-background-position: center;
+background-position: right-top;
 background-repeat: no-repeat;
-color: white;
+background-attachment: fixed;
+
+color:white
 }
+
 
 
 
@@ -155,6 +158,15 @@ color: white;
 .blue-ink {
     color: #0068b1;
     
+}
+#Important-dates{
+flex-direction: column;
+background:url("image/Back ground 2.jpg");
+background-size:cover;
+background-position:right-top;
+background-repeat: no-repeat;
+background-attachment: fixed;
+color: white;
 }
 /* .imp-dates{
     background:url("image/Back ground 2.jpg");
@@ -174,25 +186,45 @@ color: white;
     font-size: 2rem;
 
 }
-
+#committees{
+flex-direction: column;
+background:url("image/Back ground 2.jpg");
+background-size:cover;
+background-position: right-top; 
+background-repeat: no-repeat;
+background-attachment: fixed;
+color: white;
+}
 /* ##########keynotes-styling########### */
 #keynotes{
     padding-top: 80px;
     font-size: 2rem;
-    
+    flex-direction: column;
+}
+#keynotes{
+background:url("image/Back ground 2.jpg");
+background-size:cover;
+background-position: right-top;
+background-repeat: no-repeat;
+background-attachment: fixed;
+color: white;
 }
 .bio-content{
-    border: 2px solid black;
+    border: 2px solid white;
     padding: auto;
     margin: 30px;
     box-sizing: border-box;
+    /* display: flex; */
+    flex-direction:column;
 }
+
 .img1{
     text-align: center;
     width: 15px;
     height: auto;
     margin: 30px;
-    /* text-align: center; */
+    display: flex;
+    padding: 0px 200px 0px 100px;
 }
 
 /* ##########guidelines-styling########### */
@@ -201,18 +233,42 @@ color: white;
     padding-top: 80px;
     font-size: 2rem;
 }
-
+#guidelines{
+background:url("image/Back ground 2.jpg");
+background-size:cover;
+background-position: right-top;
+background-repeat: no-repeat;
+flex-direction: column;
+background-attachment: fixed;
+color: white;
+}
 /* ##########contact-styling########### */
 #contact{
     padding-top: 80px;
     font-size: 2.5rem;
     
+}#contact{
+height: 100vh;
+background:url("image/Back ground 2.jpg");
+background-size:cover;
+background-position: center;
+background-repeat: no-repeat;
+color: white;
 }
 
 /* #########registration-styling########### */
 #registration{
     padding-top: 80px;
     font-size: 2rem;
+    flex-direction: column;
+}
+#registration{
+background:url("image/Back ground 2.jpg");
+background-size:cover;
+background-position: right-top;
+background-repeat: no-repeat;
+background-attachment: fixed;
+color: white;
 }
 
 
