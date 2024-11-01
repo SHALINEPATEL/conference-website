@@ -122,6 +122,8 @@ height: 100vh;
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 .about-text{
     color: white;
@@ -138,7 +140,7 @@ height: 100vh;
 #topics{
 background:url("image/Back ground 2.jpg");
 background-size:cover;
-background-position: right-top;
+background-position: center;
 background-repeat: no-repeat;
 background-attachment: fixed;
 
@@ -163,7 +165,7 @@ color:white
 flex-direction: column;
 background:url("image/Back ground 2.jpg");
 background-size:cover;
-background-position:right-top;
+background-position:center;
 background-repeat: no-repeat;
 background-attachment: fixed;
 color: white;
@@ -190,7 +192,7 @@ color: white;
 flex-direction: column;
 background:url("image/Back ground 2.jpg");
 background-size:cover;
-background-position: right-top; 
+background-position: center; 
 background-repeat: no-repeat;
 background-attachment: fixed;
 color: white;
@@ -204,28 +206,28 @@ color: white;
 #keynotes{
 background:url("image/Back ground 2.jpg");
 background-size:cover;
-background-position: right-top;
+background-position: center;
 background-repeat: no-repeat;
 background-attachment: fixed;
 color: white;
 }
 .bio-content{
     border: 2px solid white;
-    padding: auto;
+    padding: 16px;
     margin: 30px;
     box-sizing: border-box;
     /* display: flex; */
     flex-direction:column;
 }
 
-.img1{
+/* .img1{
     text-align: center;
     width: 15px;
     height: auto;
     margin: 30px;
     display: flex;
     padding: 0px 200px 0px 100px;
-}
+} */
 
 /* ##########guidelines-styling########### */
 
@@ -236,7 +238,7 @@ color: white;
 #guidelines{
 background:url("image/Back ground 2.jpg");
 background-size:cover;
-background-position: right-top;
+background-position: center;
 background-repeat: no-repeat;
 flex-direction: column;
 background-attachment: fixed;
@@ -245,14 +247,17 @@ color: white;
 /* ##########contact-styling########### */
 #contact{
     padding-top: 80px;
-    font-size: 2.5rem;
-    
-}#contact{
-height: 100vh;
+    font-size: 2.5rem ;
+
+}
+#contact{
+    height: 100vh;
 background:url("image/Back ground 2.jpg");
 background-size:cover;
 background-position: center;
 background-repeat: no-repeat;
+flex-direction: column;
+background-attachment: fixed;
 color: white;
 }
 
@@ -265,7 +270,7 @@ color: white;
 #registration{
 background:url("image/Back ground 2.jpg");
 background-size:cover;
-background-position: right-top;
+background-position: center;
 background-repeat: no-repeat;
 background-attachment: fixed;
 color: white;
