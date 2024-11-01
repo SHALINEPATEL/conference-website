@@ -118,6 +118,7 @@ height: 100vh;
     padding-top: 80px ;
     font-size: 2.5rem;
     height: 100vh;
+    background-attachment: fixed;
     background:url("image/Back ground 2.jpg");
     background-size:cover;
     background-position: center;
