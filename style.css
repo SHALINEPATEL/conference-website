@@ -138,6 +138,7 @@ body {
     padding-top: 80px;
     font-size: 2.5rem;
     height: 100vh;
+    background-color: #f5f5f7;
     /* background:url(/image/AdobeStock_941424331_Preview-transformed.jpeg);
     background-size:cover;
     background-attachment: fixed;
@@ -150,6 +151,7 @@ body {
 
 .about-text {
     color: black;
+    
 
 }
 
@@ -168,6 +170,8 @@ body {
     padding-top: 80px;
     font-size: 2rem;
     flex-direction: column;
+    color: black;
+    background-color: #f5f5f7;
 
 
 
@@ -182,18 +186,6 @@ body {
     margin-left: 20px;
 }
 
-#topics {
-    /* height: 100vh; */
-    /* background:url("/image/DeWatermark.ai_1733851920285.png");
-background-size:cover;
-background-position: center;
-background-repeat: no-repeat;
-background-attachment: fixed; */
-    color: black;
-    background-color: #f5f5f7;
-}
-
-
 /* ##########important-dates-styling########### */
 
 #Important-dates {
@@ -207,13 +199,8 @@ background-attachment: fixed; */
 }
 
 #Important-dates {
-    /* height: 100vh; */
     flex-direction: column;
-    /* background:url("/image/DeWatermark.ai_1733851920285.png"); */
-    /* background-size:cover;
-background-position:center;
-background-repeat: no-repeat;
-background-attachment: fixed; */
+
     color: black;
     background-color: #f5f5f7;
 }
@@ -222,7 +209,6 @@ background-attachment: fixed; */
 #committees {
     padding-top: 80px;
     font-size: 2rem;
-    /* flex-direction: column; */
     background: url("/image/DeWatermark.ai_1733851920285.png");
     background-size: cover;
     background-position: center;
@@ -235,7 +221,6 @@ background-attachment: fixed; */
 #committees .img-2 {
     width: 200px;
     height: 200px;
-    /* margin: 30px, 20px, 30px, 20px; */
     border: 1px solid black;
 }
 
@@ -315,8 +300,6 @@ background-attachment: fixed; */
 
 
 #keynotes {
-    /* height: 100vh; */
-    /* background:url("image/AdobeStock_594968766_Preview-transformed.jpeg"); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -328,11 +311,6 @@ background-attachment: fixed; */
 .last-div {
     margin-bottom: 30px;
 }
-
-/* .wp-block-heading2{
-    padding-left: 30px;
-    font-size: 3.5rem;
-} */
 .small-1 {
     margin-left: 30px;
     color: #033253;
